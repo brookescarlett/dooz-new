@@ -1,0 +1,12 @@
+:root {
+    --main-blue: rgb(11, 20, 43); 
+    --white: rgb(255, 255, 255)
+}
+
+.main-blue {
+    color: var(--main-blue)
+}
+
+.white {
+    color: var(--white)
+}

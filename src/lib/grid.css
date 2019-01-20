@@ -1,0 +1,118 @@
+.site-container {
+    margin-left: 15%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(40, 72px);
+}
+
+.grid-container > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#border {
+    grid-row-start: 16;
+    grid-row-end: 33;
+    grid-column-start: 3;
+    grid-column-end: 8;
+    background-color: white;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: var(--main-blue);
+    border-radius: 45px 45px 45px 45px;
+}
+
+#img1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 15;
+    background-image: url('../assets/imgs/model.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.text-container {
+    background-color: white;
+}
+
+#text1 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 16;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: var(--main-blue);
+    border-radius: 0px 45px 45px 0px;
+    padding: 0px 40px;
+}
+
+
+#text2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 16;
+    grid-row-end: 23;
+}
+
+#img2 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 17;
+    grid-row-end: 24;
+
+    background-image: url('../assets/imgs/product-shot.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#img3{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 24;
+    grid-row-end: 32;
+    background-image: url('../assets/imgs/product-shot.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#text3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 24;
+    grid-row-end: 32;
+}
+
+#bottom-border {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 33;
+    grid-row-end: 34;
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: var(--main-blue);
+}
+
+#text4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 34;
+    grid-row-end: 36;
+    align-self: flex-start;
+}
+
+#img4 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 34;
+    grid-row-end: 39;
+    background-image: url('../assets/imgs/model.jpg');
+    background-position: center;
+    background-size: cover;
+}

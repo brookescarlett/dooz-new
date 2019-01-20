@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Avenir Next Light';
+  src: url('../assets/fonts/AvenirNext-UltraLight.ttf')  format('truetype')   
+}
+
+@font-face {
+  font-family: 'Avenir Next Medium';
+  src: url('../assets/fonts/AvenirNext-Medium.ttf')  format('truetype')   
+}
+
+.nav-font {
+  font-family: 'Avenir Next Light';
+  font-size: 23px;
+}
+
+.bigger-body-text {
+  font-family: 'Avenir Next Medium';
+  font-size: 35px;
+  color: var(--main-blue);
+}
+
+.body-text {
+  font-family: 'Avenir Next Medium';
+  font-size: 21px;
+  color: var(--main-blue);
+}
+
+.outline-header {
+  font-family: 'Avenir Next Medium';
+  font-size: 65px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--main-blue);
+}
