@@ -3,3 +3,11 @@
     background-color: var(--main-blue);
     width: 15%;
 }
+
+.selected {
+    background-image: url('../assets/logos/Dooz_Logos-01-01.png');
+    background-position: center;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+}

@@ -4,69 +4,102 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(40, 72px);
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(31, 100px);
 }
 
 .grid-container > div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 #border {
-    grid-row-start: 16;
-    grid-row-end: 33;
+    grid-row-start: 10;
+    grid-row-end: 23;
     grid-column-start: 3;
-    grid-column-end: 8;
+    grid-column-end: 9;
     background-color: white;
-    border-width: 1px 1px 1px 1px;
+    border-width: 0px 1px 1px 1px;
     border-style: solid;
     border-color: var(--main-blue);
-    border-radius: 45px 45px 45px 45px;
+    border-radius: 0px 0px 45px 45px;
 }
 
-#img1 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 15;
-    background-image: url('../assets/imgs/model.jpg');
-    background-position: center;
-    background-size: cover;
+#topBorder {
+    grid-column-start: 3;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 10;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: var(--main-blue);
+    border-radius: 0px 45px 45px 0px;
 }
+
+#topLogo {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: -30px;
+    /* background-color: white; */
+    z-index: 200;
+}
+
+#topDot {
+    grid-row-start: 10;
+    grid-row-end: 11;
+    grid-column-start: 9;
+    grid-column-end: 9;
+    font-size: 60px;
+    margin-top: -30px;
+    margin-left: -12px;
+}
+
+#bottom-border {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 23;
+    grid-row-end: 24;
+    border-width: 0px 0px 0px 1px;
+    border-style: solid;
+    border-color: var(--main-blue);
+}
+
 
 .text-container {
     background-color: white;
 }
 
-#text1 {
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 2;
-    grid-row-end: 16;
-    border-width: 1px 1px 1px 0px;
-    border-style: solid;
-    border-color: var(--main-blue);
-    border-radius: 0px 45px 45px 0px;
-    padding: 0px 40px;
+#img1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    background-image: url('../assets/imgs/model.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
+#text1 {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 8;
+}
 
 #text2 {
     grid-column-start: 1;
     grid-column-end: 6;
-    grid-row-start: 16;
-    grid-row-end: 23;
+    grid-row-start: 11;
+    grid-row-end: 14;
 }
 
 #img2 {
-    grid-column-start: 6;
-    grid-column-end: 9;
-    grid-row-start: 17;
-    grid-row-end: 24;
-
+    grid-column-start: 7;
+    grid-column-end: 12;
+    grid-row-start: 12;
+    grid-row-end: 16;
     background-image: url('../assets/imgs/product-shot.jpg');
     background-position: center;
     background-size: cover;
@@ -74,45 +107,49 @@
 
 #img3{
     grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 24;
-    grid-row-end: 32;
+    grid-column-end: 6;
+    grid-row-start: 16;
+    grid-row-end: 22;
     background-image: url('../assets/imgs/product-shot.jpg');
     background-position: center;
     background-size: cover;
 }
 
 #text3 {
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 24;
-    grid-row-end: 32;
-}
-
-#bottom-border {
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 33;
-    grid-row-end: 34;
-    border-width: 0px 1px 0px 1px;
-    border-style: solid;
-    border-color: var(--main-blue);
+    grid-column-start: 7;
+    grid-column-end: 12;
+    grid-row-start: 17;
+    grid-row-end: 21;
 }
 
 #text4 {
     grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 34;
-    grid-row-end: 36;
+    grid-column-end: 4;
+    grid-row-start: 24;
+    grid-row-end: 24;
     align-self: flex-start;
+}
+
+#team {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 25;
+    grid-row-end: 29;
 }
 
 #img4 {
     grid-column-start: 6;
-    grid-column-end: 9;
-    grid-row-start: 34;
-    grid-row-end: 39;
+    grid-column-end: 12;
+    grid-row-start: 24;
+    grid-row-end: 31;
     background-image: url('../assets/imgs/model.jpg');
     background-position: center;
     background-size: cover;
+}
+
+.dot {
+    margin-top: -32px; 
+    margin-left: -10px; 
+    font-size: 60px; 
+    color: var(--mainBlue)
 }

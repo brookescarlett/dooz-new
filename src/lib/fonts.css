@@ -8,14 +8,25 @@
   src: url('../assets/fonts/AvenirNext-Medium.ttf')  format('truetype')   
 }
 
+@font-face {
+  font-family: 'Avenir Next Bold';
+  src: url('../assets/fonts/AvenirNext-Bold.ttf')  format('truetype')   
+}
+
 .nav-font {
   font-family: 'Avenir Next Light';
   font-size: 23px;
 }
 
+.sub-nav {
+  font-family: 'Avenir Next Light';
+  font-size: 16px;
+
+}
+
 .bigger-body-text {
   font-family: 'Avenir Next Medium';
-  font-size: 35px;
+  font-size: 24px;
   color: var(--main-blue);
 }
 
@@ -23,15 +34,32 @@
   font-family: 'Avenir Next Medium';
   font-size: 21px;
   color: var(--main-blue);
+  line-height: 2em;
 }
 
 .outline-header {
-  font-family: 'Avenir Next Medium';
-  font-size: 65px;
+  font-family: 'Avenir Next Bold';
+  font-size: 56px;
   font-weight: bolder;
-  letter-spacing: 2px;
+  /* line-height: 2px; */
+  letter-spacing: 4px;
   text-transform: uppercase;
   color: white;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--main-blue);
+}
+
+
+.product-text {
+  font-family: 'Avenir Next Medium';
+  font-size: 16px;
+  color: var(--main-blue);
+  line-height: 0px;
+}
+
+.product-sub-text {
+  font-family: 'Avenir Next Light';
+  font-size: 14px;
+  color: var(--main-blue);
+
 }
