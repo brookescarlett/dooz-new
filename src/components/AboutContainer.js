@@ -17,7 +17,7 @@ export default class AboutContainer extends Component {
                     <div id="topBorder"></div>
                     <div id="img1"></div>
                     <div id="text1" className="flex flex-column">
-                        <p class="bigger-body-text">Astrology is assurance that the universe gets us, isn't that why we read our horoscopes?</p>
+                        <p class="bigger-body-text pt2">Astrology is assurance that the universe gets us, isn't that why we read our horoscopes?</p>
                         <br></br>
                         <p class="bigger-body-text">We are Dooz, a brand that embraces the dynamism of the zodiac. The 12 signs are embodied within all of us and we believe in owning that. Dooz celebrates the freedom of affirming who we are every time we get dressed.</p>
                     </div>
@@ -42,7 +42,7 @@ export default class AboutContainer extends Component {
                         <div className="m0 text-container">
                             <div className="flex items-center justify-end">
                                 <p className="m0 outline-header">The Team</p>
-                                <img src={O} alt="mini-logo" height="60" style={{marginRight: "-20px", paddingLeft: "20px"}}/>
+                                <img src={O} alt="mini-logo" height="60" style={{marginRight: "-30px", paddingLeft: "20px"}}/>
                             </div>
                         </div>
                     </div>

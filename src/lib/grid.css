@@ -57,7 +57,7 @@
 }
 
 #bottom-border {
-    grid-column-start: 4;
+    grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 23;
     grid-row-end: 24;
@@ -124,7 +124,7 @@
 
 #text4 {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 24;
     grid-row-end: 24;
     align-self: flex-start;
@@ -135,6 +135,7 @@
     grid-column-end: 5;
     grid-row-start: 25;
     grid-row-end: 29;
+
 }
 
 #img4 {

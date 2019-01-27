@@ -18,8 +18,9 @@ class AppRouter extends Component {
       <Router>
         <div>
           <nav>
-            <ul className="m0 navigation py4 pl3 list-reset flex flex-column fixed top-0 bottom-0 left-0">
-              <li className="mb3">
+              
+            <ul className="m0 navigation py2 list-reset flex flex-column fixed top-0 bottom-0 left-0">
+              <li className="mb3 flex items-center justify-center">
                 <NavLink
                   className="nav-font text-decoration-none white"
                   to="/">
@@ -27,43 +28,44 @@ class AppRouter extends Component {
                     src={Logo}
                     alt="logo"
                     width="90%"
-                    className="center" />
+                    className="px1" />
                 </NavLink>
               </li>
-             
-              <li className="mb3">
-                <NavLink
-                  className="nav-font text-decoration-none white"
-                  activeClassName="selected"
-                  to="/collections">collections
-                  </NavLink>
-              </li>
-              
-              <li className="mb3">
-                <NavLink
-                  className="nav-font text-decoration-none white"
-                  to="/shop/">shop</NavLink>
-              </li>
-              <li className="mb3">
-                <NavLink
-                  className="nav-font text-decoration-none white"
-                  to="/about/">about</NavLink>
-              </li>
-              <li className="mb3">
-                <NavLink
-                  className="nav-font text-decoration-none white"
-                  to="/stories/">stories</NavLink>
-              </li>
-              <li className="mb3">
-                <NavLink
-                  className="nav-font text-decoration-none white"
-                  to="/stories/">account</NavLink>
-              </li>
-              <li className="mb3">
-                <NavLink
-                  className="nav-font text-decoration-none white fixed bottom-0 mb4"
-                  to="/cart/">cart</NavLink>
-              </li>
+              <div className="pl3">
+                <li className="mb3">
+                  <NavLink
+                    className="nav-font text-decoration-none white"
+                    activeClassName="selected"
+                    to="/collections">collections
+                    </NavLink>
+                </li>
+                
+                <li className="mb3">
+                  <NavLink
+                    className="nav-font text-decoration-none white"
+                    to="/shop/">shop</NavLink>
+                </li>
+                <li className="mb3">
+                  <NavLink
+                    className="nav-font text-decoration-none white"
+                    to="/about/">about</NavLink>
+                </li>
+                <li className="mb3">
+                  <NavLink
+                    className="nav-font text-decoration-none white"
+                    to="/stories/">stories</NavLink>
+                </li>
+                <li className="mb3">
+                  <NavLink
+                    className="nav-font text-decoration-none white"
+                    to="/stories/">account</NavLink>
+                </li>
+                <li className="mb3">
+                  <NavLink
+                    className="nav-font text-decoration-none white fixed bottom-0 mb4"
+                    to="/cart/">cart</NavLink>
+                </li>
+              </div>
             </ul>
           </nav>
 
